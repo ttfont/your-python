@@ -13,3 +13,8 @@
 
 ###### 6 [Python 数据类型详解：列表、字典、元组与集合的操作指南](https://blog.csdn.net/u014394049/article/details/142167052)
 
+###### 7 [Python 函数使用指南：定义、参数设置与变量作用域详解](https://blog.csdn.net/u014394049/article/details/142168924)
+
+###### 8 [Python Class 类详解：定义、继承与特殊方法的使用](https://blog.csdn.net/u014394049/article/details/142202508)
+
+###### 9 [Python Module 模块详解：模块导入与项目管理的最佳实践](https://blog.csdn.net/u014394049/article/details/142211375)
