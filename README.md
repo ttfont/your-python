@@ -20,3 +20,5 @@
 ###### 9 [Python Module 模块详解：模块导入与项目管理的最佳实践](https://blog.csdn.net/u014394049/article/details/142211375)
 
 ###### 10 [Python 文件读写操作详解：从创建到编码处理.md](https://blog.csdn.net/u014394049/article/details/142252859)
+
+###### 11 [Python 文件与目录管理：操作、管理与检验详解](https://blog.csdn.net/u014394049/article/details/142253705)
