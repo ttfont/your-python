@@ -18,3 +18,5 @@
 ###### 8 [Python Class 类详解：定义、继承与特殊方法的使用](https://blog.csdn.net/u014394049/article/details/142202508)
 
 ###### 9 [Python Module 模块详解：模块导入与项目管理的最佳实践](https://blog.csdn.net/u014394049/article/details/142211375)
+
+###### 10 [Python 文件读写操作详解：从创建到编码处理.md](https://blog.csdn.net/u014394049/article/details/142252859)
