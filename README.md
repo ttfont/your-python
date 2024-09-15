@@ -1,7 +1,7 @@
 # your-python
 学习 Python，请看 **[CSDN Python 编码专栏](https://blog.csdn.net/u014394049/category_12778339.html)**
 
-###### 1 [Python 安装和依赖管理指南：Conda 与 Pip]( https://blog.csdn.net/u014394049/article/details/141992786)
+###### 1 [Python 安装和依赖管理指南：Conda 与 Pip](https://blog.csdn.net/u014394049/article/details/141992786)
 
 ###### 2 [使用 PyCharm 新建 Python 项目详解](https://blog.csdn.net/u014394049/article/details/142092013)
 
