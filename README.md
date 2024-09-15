@@ -22,3 +22,7 @@
 ###### 10 [Python 文件读写操作详解：从创建到编码处理.md](https://blog.csdn.net/u014394049/article/details/142252859)
 
 ###### 11 [Python 文件与目录管理：操作、管理与检验详解](https://blog.csdn.net/u014394049/article/details/142253705)
+
+###### 12 [Python 正则表达式详解：从基础匹配到高级应用](https://blog.csdn.net/u014394049/article/details/142284701)
+
+###### 13 [Python Pickle 与 JSON 序列化详解：存储、反序列化与对比](https://mp.csdn.net/mp_blog/creation/success/142285797)
