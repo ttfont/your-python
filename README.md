@@ -26,3 +26,7 @@
 ###### 12 [Python 正则表达式详解：从基础匹配到高级应用](https://blog.csdn.net/u014394049/article/details/142284701)
 
 ###### 13 [Python Pickle 与 JSON 序列化详解：存储、反序列化与对比](https://mp.csdn.net/mp_blog/creation/success/142285797)
+
+###### 14 [Python 异常控制详解：try-except 的应用与多种异常处理策略](https://blog.csdn.net/u014394049/article/details/142302747)
+
+###### 15 [Python 单元测试详解：Unittest 框架的应用与最佳实践](https://blog.csdn.net/u014394049/article/details/142303705)
