@@ -29,7 +29,7 @@ def print_hi(name):
     # string.startswith()
 
     # 我遇到的问题 ，我们要处理大量文件 比如 1000 个文件，需要替换其中的特定字符，
-    # 比如把 morvanzhou.github.io 改成 mofanpy.com
+    # 比如把 yourpython.github.io 改成 mofanpy.com
 
     # 分析问题
     # 遍历所有的文本文件
@@ -59,7 +59,7 @@ def print_hi(name):
         file_path = os.path.join("yourfiles", filename)
         with open(file_path, "r") as f1:
             string = f1.read()
-            new_string = re.sub(r"morvanzhou.github.io", "mofanpy.com", string)
+            new_string = re.sub(r"yourpython.github.io", "mofanpy.com", string)
             with open(os.path.join("yourfiles", "new_" + filename), "w") as f2:
                 f2.write(new_string)
 
@@ -72,12 +72,6 @@ def print_hi(name):
         with open(file_path, "r") as f:
             print(file_path, ": ", f.read())
 
-# 尽管这个任务看起来很简单，但其实包含了对项目的一些深度思考，
-# 比如如何发现问题、分析问题、解决问题。通过之前那个不太实用的计
-# 算器项目以及这个练习，大家对使用 Python 开发项目应该有了更深入的理解。
-#
-# 好了，到了这个阶段，大家已经可以尝试独立完成一些简单的项目了。
-# 接下来的课程将致力于进一步提升你的技能，而且内容会更加丰富精彩。
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
