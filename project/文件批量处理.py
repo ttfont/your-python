@@ -59,7 +59,7 @@ def print_hi(name):
         file_path = os.path.join("yourfiles", filename)
         with open(file_path, "r") as f1:
             string = f1.read()
-            new_string = re.sub(r"yourpython.github.io", "mofanpy.com", string)
+            new_string = re.sub(r"yourpython.github.io", "yourpython.com", string)
             with open(os.path.join("yourfiles", "new_" + filename), "w") as f2:
                 f2.write(new_string)
 
