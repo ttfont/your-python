@@ -32,3 +32,31 @@ Python是一种高效且广泛应用的编程语言，以其简洁的语法和�
 ###### 14 [Python 异常控制详解：try-except 的应用与多种异常处理策略](https://blog.csdn.net/u014394049/article/details/142302747)
 
 ###### 15 [Python 单元测试详解：Unittest 框架的应用与最佳实践](https://blog.csdn.net/u014394049/article/details/142303705)
+
+###### 16 [Python 项目实践：简单的计算器](https://water-code.blog.csdn.net/article/details/142324497)
+
+###### 17 [Python 项目实践：文件批量处理](https://water-code.blog.csdn.net/article/details/142325760)
+
+###### 18 [Python 高阶内容：字符串从格式化到高级操作](https://water-code.blog.csdn.net/article/details/142374372)
+
+###### 19 [Python 高阶内容：深拷贝与浅拷贝揭秘复制的“玄学”](https://water-code.blog.csdn.net/article/details/142410985)
+
+###### 20 [Python 高阶内容：简化代码的终极技巧](https://water-code.blog.csdn.net/article/details/142410904)
+
+###### 21 [Python 高阶内容：套娃式装饰器巧妙为函数增加功能](https://water-code.blog.csdn.net/article/details/142449722)
+
+###### 22 [Python 高阶内容：深入理解 yield 生成器的优势与应用](https://water-code.blog.csdn.net/article/details/142449617)
+
+###### 23 [Python 多进程解析：Multiprocessing 高效并行处理的奥秘](https://water-code.blog.csdn.net/article/details/142481935)
+
+###### 24 [Python 多线程编程详解：用 Threading 优雅提升程序并发性能](https://water-code.blog.csdn.net/article/details/142479805)
+
+###### 25 [Python NumPy 安装指南：开启高效数值计算之旅](https://water-code.blog.csdn.net/article/details/142518237)
+
+###### 26 [Python NumPy 与 List 的性能对决：为何 NumPy 更胜一筹](https://water-code.blog.csdn.net/article/details/142518289)
+
+###### 27 [Python NumPy 基础操作：多维数据处理详解](https://water-code.blog.csdn.net/article/details/142551614)
+
+###### 28 [Python NumPy 数据筛选：索引、切片与条件筛选全解析](https://water-code.blog.csdn.net/article/details/142556462)
+
+###### 29 [Python NumPy 基础运算：高效处理与分析数据](https://water-code.blog.csdn.net/article/details/142587031)
