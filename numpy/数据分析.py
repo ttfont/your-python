@@ -34,7 +34,7 @@ def print_hi(name):
 
     # 获取指定日期数据
     date_idx = your_data["date"].index("2020-02-03")
-    print("日期->索引转换：", date_idx)
+    print("2020-02-03 日期->索引转换：", date_idx)
 
     data = np.array(your_data["data"])
 
