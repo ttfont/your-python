@@ -8,7 +8,6 @@ import numpy as np
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-    # 在项目中，要根据实际结合业务综合判断哪些是异常数据。
     raw_data = [
         ["Name", "StudentID", "Age", "AttendClass", "Score"],
         ["小明", 20131, 10, 1, 67],
