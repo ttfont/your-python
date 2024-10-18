@@ -6,11 +6,18 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+# 定义ReLU激活函数，这是一个非线性函数，通常用于增加模型的表达能力
 def relu(x):
+    # np.maximum用于比较两个数组并返回各个位置的最大值，这里用于实现ReLU：f(x) = max(0, x)
     return np.maximum(0, x)
 
+
+# 定义双曲正切激活函数，它输出范围为[-1, 1]，用于处理输入数据的非线性变换
 def tanh(x):
+    # np.tanh计算输入数组x的双曲正切值
     return np.tanh(x)
+
 
 # 定义一个函数来创建神经网络层
 def layer(in_dim, out_dim):
