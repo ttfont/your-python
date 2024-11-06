@@ -38,7 +38,8 @@ def print_hi(name):
     print(df)
     df.loc["a", :] = df.loc["a", :] * 2
     print(df)
-    df["A"][df["A"] == 0] = -1
+    # df["A"][df["A"] == 0] = -1
+    df.loc[df["A"] == 0, "A"] = -1
     print(df)
 
     # Apply方法
