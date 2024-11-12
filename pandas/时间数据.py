@@ -12,19 +12,6 @@ import pytz
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-    # 主要功能
-    # 读时间序列数据
-    # pd.to_datetime()
-    # 自建时间序列
-    # pd.date_range()
-    # 选取时间
-    # 时间运算
-    # pd.Timedelta()
-    # dt.dayofyear; dt.dayofweek; dt.weekofyear; dt.weekday
-    # dt.strftime(); dt.day_name(); dt.month_name()
-    # 时区
-    # tz_localize(); tz_convert()
-    # pytz.country_timezones()
 
     # 读时间序列数据
 
