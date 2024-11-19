@@ -355,22 +355,22 @@ def print_hi(name):
     print("figure 绘图主要看代码注释和运行后的图像。")
     # 查看系统字体
     # font_query()
-    # figure1()
-    # figure2()
-    # figure3()
+    figure1()
+    figure2()
+    figure3()
     figure4()
     # 调整名字和间隔（刻度）
-    # figure5()
+    figure5()
     # 设置坐标轴2
     # 设置不同名字和位置,调整坐标轴
-    # figure6()
+    figure6()
     # Legend 图例,调整位置和名称
-    # figure7()
+    figure7()
     # Annotation 标注
-    # figure8_1()
-    # figure8_2()
+    figure8_1()
+    figure8_2()
     # tick 能见度,透明度
-    # figure9()
+    figure9()
 
 
 if __name__ == '__main__':
