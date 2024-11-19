@@ -1,27 +1,48 @@
-import threading
-from time import sleep
-
+import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib.font_manager import FontManager
 
 
 # 基本用法
 def figure1():
+    # 生成50个等间距的点，范围从-1到1
     x = np.linspace(-1, 1, 50)
+
+    # 定义函数 y = 2x + 1
     y = 2 * x + 1
+
+    # 创建一个图形窗口
     plt.figure()
+
+    # 绘制 x 和 y 的关系
     plt.plot(x, y)
+
+    # 显示图形
     plt.show()
 
 
 # figure 图像
 def figure2():
+    # 生成50个等间距的点，范围从-3到3
     x = np.linspace(-3, 3, 50)
+
+    # 定义第一个函数 y1 = 2x + 1
     y1 = 2 * x + 1
+
+    # 定义第二个函数 y2 = x^2
     y2 = x ** 2
+
+    # 创建一个图形窗口
     plt.figure()
+
+    # 绘制 x 和 y1 的关系（线性）
     plt.plot(x, y1)
+
+    # 绘制 x 和 y2 的关系（二次方）
     plt.plot(x, y2)
+
+    # 显示图形
     plt.show()
 
 
@@ -34,8 +55,8 @@ def figure3():
     # 定义函数 y2 为二次函数 x^2
     y2 = x ** 2
 
-    # 创建一个编号为 3 的图形窗口，设置窗口大小为 8x5 英寸
-    plt.figure(num=3, figsize=(8, 5))
+    # 创建一个编号为 3 的图形窗口，设置窗口大小为 8x4 英寸
+    plt.figure(num=3, figsize=(8, 4))
     # 在图形窗口中绘制 y2 = x^2 的图形
     plt.plot(x, y2)
     # 在同一个图形窗口中绘制 y1 = 2x + 1 的图形，设置图形颜色为红色，线宽为 1.0，线型为虚线
@@ -195,7 +216,62 @@ def figure7():
     plt.show()
 
 
-def figure8():
+def font_query():
+    fm = FontManager()
+    available_fonts = fm.ttflist
+
+    for font in available_fonts:
+        if 'Hei' in font.name or 'Song' in font.name:  # 查找包含“黑”或“宋”字的字体
+            print(font.name, font.fname)
+
+
+def figure8_1():
+    # 设置matplotlib支持中文显示
+    matplotlib.rcParams['font.family'] = 'Songti SC'  # 设置字体为黑体
+    matplotlib.rcParams['font.size'] = 14  # 设置字体大小
+    matplotlib.rcParams['axes.unicode_minus'] = False  # 正常显示负号
+    # 使用 numpy 创建 x 范围从 -3 到 3 的线性空间，共 50 个点
+    x = np.linspace(-3, 3, 50)
+    # 定义函数 y = 2x + 1
+    y = 2 * x + 1
+
+    # 创建图形，编号为 1，大小为 8x5
+    plt.figure(num=1, figsize=(8, 5))
+    # 绘制 x 和 y 的图形
+    plt.plot(x, y)
+    # 获取当前轴域
+    ax = plt.gca()
+    # 设置图形的右边框和上边框为不显示
+    ax.spines['right'].set_color('none')
+    ax.spines['top'].set_color('none')
+    # 设置 x 轴的刻度位置在底部
+    ax.xaxis.set_ticks_position('bottom')
+    # 设置底部边框位置在 y=0 的位置
+    ax.spines['bottom'].set_position(('data', 0))
+    # 设置 y 轴的刻度位置在左侧
+    ax.yaxis.set_ticks_position('left')
+    # 设置左侧边框位置在 x=0 的位置
+    ax.spines['left'].set_position(('data', 0))
+    # 定义一个点的 x 坐标为 1
+    x0 = 1
+    # 计算点的 y 坐标
+    y0 = 2 * x0 + 1
+    # 在图中绘制从 (x0, 0) 到 (x0, y0) 的虚线
+    plt.plot([x0, x0], [0, y0], 'k--', linewidth=2.5)
+    # 在图中标记点 (x0, y0)，大小为 50，颜色为蓝色
+    plt.scatter([x0], [y0], s=50, color='b')
+    # 对标记的点 (x0, y0) 添加注释
+    plt.annotate(r'$2x+1=%s$' % y0, xy=(x0, y0), xycoords='data', xytext=(+30, -30),
+                 textcoords='offset points', fontsize=16,
+                 arrowprops=dict(arrowstyle='->', connectionstyle="arc3,rad=.2"))
+    # 在图中 (-3.7, 3) 的位置添加文本
+    plt.text(-3.7, 3, '这是一个标注',
+             fontdict={'size': 16, 'color': 'r'})
+    # 显示图形
+    plt.show()
+
+
+def figure8_2():
     # 使用 numpy 创建 x 范围从 -3 到 3 的线性空间，共 50 个点
     x = np.linspace(-3, 3, 50)
     # 定义函数 y = 2x + 1
@@ -264,9 +340,6 @@ def figure9():
     # 设置左侧边框的位置，将其设置在数据坐标0的位置
     ax.spines['left'].set_position(('data', 0))
     # 遍历所有的 x 和 y 轴的刻度标签
-    print(ax.get_xticklabels())
-    print(ax.get_yticklabels())
-    print(ax.get_xticklabels() + ax.get_yticklabels())
     for label in ax.get_xticklabels() + ax.get_yticklabels():
         # 设置标签的字体大小为12
         label.set_fontsize(12)
@@ -278,10 +351,14 @@ def figure9():
 
 
 def print_hi(name):
+    print(f'Hi, {name}')
+    print("figure 绘图主要看代码注释和运行后的图像。")
+    # 查看系统字体
+    # font_query()
     # figure1()
     # figure2()
     # figure3()
-    # figure4()
+    figure4()
     # 调整名字和间隔（刻度）
     # figure5()
     # 设置坐标轴2
@@ -290,9 +367,10 @@ def print_hi(name):
     # Legend 图例,调整位置和名称
     # figure7()
     # Annotation 标注
-    # figure8()
+    # figure8_1()
+    # figure8_2()
     # tick 能见度,透明度
-    figure9()
+    # figure9()
 
 
 if __name__ == '__main__':
