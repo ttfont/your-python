@@ -265,7 +265,7 @@ def figure8_1():
                  textcoords='offset points', fontsize=16,
                  arrowprops=dict(arrowstyle='->', connectionstyle="arc3,rad=.2"))
     # 在图中 (-3.7, 3) 的位置添加文本
-    plt.text(-3.7, 3, '这是一个标注',
+    plt.text(-3.7, 3, '这是一个中文标注',
              fontdict={'size': 16, 'color': 'r'})
     # 显示图形
     plt.show()
