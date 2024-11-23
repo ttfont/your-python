@@ -122,23 +122,23 @@
 
 #### ⑴ Docker 篇 🐳
 
-1. [Docker 安装与配置：从入门到部署](https://water-code.blog.csdn.net/article/details/141896710) ⚙️
-2. [Docker 镜像的构建与多架构支持](https://water-code.blog.csdn.net/article/details/141993381)
+1. [Docker 安装与配置：从入门到部署](https://water-code.blog.csdn.net/article/details/141896710) 🔧
+2. [Docker 镜像的构建与多架构支持](https://water-code.blog.csdn.net/article/details/141993381) 📀
 3. [Docker 环境下安装和配置 Nginx 实践](https://water-code.blog.csdn.net/article/details/141923921) 🖥️
-4. [Docker 安装与配置 Redis 实践指南](https://water-code.blog.csdn.net/article/details/141950680) ⚙️
-5. [Docker Compose 启动 PostgreSQL 数据库](https://water-code.blog.csdn.net/article/details/142315190) 📊
-6. [Dockerfile 示例 ：从基础镜像选择到环境变量配置的详细指南](https://water-code.blog.csdn.net/article/details/143165075) 📦
-7. [将 Docker Run 命令转换为 Docker Compose 配置：在线工具操作指南](https://water-code.blog.csdn.net/article/details/142957195)
-8. [Docker 安装达梦 DM8 数据库实战指南](https://water-code.blog.csdn.net/article/details/142955852)
-9. [Docker 安装之信创适配国产 C86 架构：从入门到部署全攻略](https://water-code.blog.csdn.net/article/details/141897144)
-10. [Docker Compose 部署大模型GPU集群：高效分配与管理算力资源](https://water-code.blog.csdn.net/article/details/142686557)
+4. [Docker 安装与配置 Redis 实践指南](https://water-code.blog.csdn.net/article/details/141950680) 📗
+5. [Docker Compose 启动 PostgreSQL 数据库](https://water-code.blog.csdn.net/article/details/142315190) 📈
+6. [Dockerfile 示例 ：从基础镜像选择到环境变量配置的详细指南](https://water-code.blog.csdn.net/article/details/143165075)  🗃️
+7. [将 Docker Run 命令转换为 Docker Compose 配置：在线工具操作指南](https://water-code.blog.csdn.net/article/details/142957195) 🖱️
+8. [Docker 安装达梦 DM8 数据库实战指南](https://water-code.blog.csdn.net/article/details/142955852) 📝
+9. [Docker 安装之信创适配国产 C86 架构：从入门到部署全攻略](https://water-code.blog.csdn.net/article/details/141897144) 📝
+10. [Docker Compose 部署大模型GPU集群：高效分配与管理算力资源](https://water-code.blog.csdn.net/article/details/142686557) 🌟
 11. [C86 架构一键离线安装 docker 和 docker-compose 实战指南](https://water-code.blog.csdn.net/article/details/142874081)
-12. [Docker 启动 Neo4j：详细配置指南和浏览器访问](https://water-code.blog.csdn.net/article/details/142718870)
-13. [Docker 安装与配置单机多磁盘 MinIO：高效存储解决方案](https://water-code.blog.csdn.net/article/details/142686716)
-14. [Docker 启动 PostgreSQL 主从架构：实现数据同步的高效部署指南](https://water-code.blog.csdn.net/article/details/142697518)
-15. [Docker 安装 Citus 单节点集群：全面指南与详细操作](https://water-code.blog.csdn.net/article/details/142675293)
-16. [Docker 常用操作命令与 GPU 容器运行随记](https://water-code.blog.csdn.net/article/details/142052108)
-17. [Docker 环境下 Keepalived 主备高可用配置指南](https://water-code.blog.csdn.net/article/details/141950959)
+12. [Docker 启动 Neo4j：详细配置指南和浏览器访问](https://water-code.blog.csdn.net/article/details/142718870) 🛰️
+13. [Docker 安装与配置单机多磁盘 MinIO：高效存储解决方案](https://water-code.blog.csdn.net/article/details/142686716) 📦
+14. [Docker 启动 PostgreSQL 主从架构：实现数据同步的高效部署指南](https://water-code.blog.csdn.net/article/details/142697518) ♻️
+15. [Docker 安装 Citus 单节点集群：全面指南与详细操作](https://water-code.blog.csdn.net/article/details/142675293) 🗒️
+16. [Docker 常用操作命令与 GPU 容器运行随记](https://water-code.blog.csdn.net/article/details/142052108) 🖊️
+17. [Docker 环境下 Keepalived 主备高可用配置指南](https://water-code.blog.csdn.net/article/details/141950959) 🔒
 
 #### ⑵ Linux 篇 🐧
 
@@ -148,7 +148,7 @@
 4. [Linux 挂载磁盘与重新挂载的精简操作指南](https://water-code.blog.csdn.net/article/details/142032918) 🌐
 5. [Linux 上自动下载 Docker 依赖并离线安装的完整指南](https://water-code.blog.csdn.net/article/details/142048915) 📦
 
-### 六 结语
+### 六 结语 🎉
 
-🎉 恭喜顺利走完这段Python学习之旅！希望一路上的代码、逻辑和Bug，都能成为成长的记忆点 🐍💻。Python是一门优雅又强大的语言，未来无论是数据分析、人工智能，还是开发酷炫工具，都能继续挖掘它的潜力。写代码的路上难免会有“踩坑”，但别担心，代码是改出来的，高手是练出来的 😂！愿未来的编程路上，BUG少一点，灵感多一点，项目上线无Bug！🚀🌟
+🏆 恭喜顺利走完这段Python学习之旅！希望一路上的代码、逻辑和Bug，都能成为成长的记忆点 🐍💻。Python是一门优雅又强大的语言，未来无论是数据分析、人工智能，还是开发酷炫工具，都能继续挖掘它的潜力。写代码的路上难免会有“踩坑”，但别担心，代码是改出来的，高手是练出来的 😂！愿未来的编程路上，BUG少一点，灵感多一点，项目上线无Bug！🚀🌟
 
