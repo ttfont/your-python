@@ -1,12 +1,11 @@
 # 《一起学 Python 》🐍✨专栏目录 | 全面覆盖 NumPy、Pandas、Matplotlib、3D 可视化、Docker 部署与 Linux 命令实战技巧
 
-@[TOC]
 
 **[CSDN博客](https://blog.csdn.net/u014394049)首页**：[敲代码不忘补水](https://blog.csdn.net/u014394049) 。
 
-**源码地址**： [Gitee](https://gitee.com/ttfont/your-python) 或 [GitHub](https://github.com/ttfont/your-python) 。
-
 ![62-01](https://i-blog.csdnimg.cn/direct/b6835e7c764c400c8294518a41515c8e.png#pic_center)
+
+**源码地址**： [Gitee](https://gitee.com/ttfont/your-python) 或 [GitHub](https://github.com/ttfont/your-python) 。
 
 ### 一 前言 📖
 
