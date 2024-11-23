@@ -142,7 +142,7 @@
 
 #### ⑵ Linux 篇 🐧
 
-1. [Linux常用命令速查手册](https://water-code.blog.csdn.net/article/details/142032257) 📁
+1. [Linux 常用命令速查手册](https://water-code.blog.csdn.net/article/details/142032257) 📁
 2. [Linux 磁盘信息查看命令及应用](https://water-code.blog.csdn.net/article/details/142032432) 🔐
 3. [Linux 挂载磁盘与开机自动挂载操作指南](https://water-code.blog.csdn.net/article/details/142032795) 📊
 4. [Linux 挂载磁盘与重新挂载的精简操作指南](https://water-code.blog.csdn.net/article/details/142032918) 🌐
